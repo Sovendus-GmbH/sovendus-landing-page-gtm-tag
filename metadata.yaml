@@ -1,6 +1,6 @@
 homepage: "www.sovendus.com"
 documentation: "https://github.com/Sovendus-GmbH/sovendus-landing-page-gtm-tag"
 versions:
-  Latest version
+  # Latest version
   - sha: 5f65ba62774430b61487dd90868edfe35257d6a2
     changeNotes: add initial combined version based on all other sovendus tags

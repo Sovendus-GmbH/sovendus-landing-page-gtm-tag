@@ -1,5 +1,5 @@
-homepage: "www.sovendus.com" ,
-documentation: "https://github.com/Sovendus-GmbH/sovendus-landing-page-gtm-tag" ,
+homepage: "www.sovendus.com"
+documentation: "https://github.com/Sovendus-GmbH/sovendus-landing-page-gtm-tag"
 versions:
   Latest version
   - sha: 5f65ba62774430b61487dd90868edfe35257d6a2

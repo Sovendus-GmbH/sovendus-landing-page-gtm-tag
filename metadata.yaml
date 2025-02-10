@@ -1,6 +1,6 @@
 homepage: "www.sovendus.com" ,
 documentation: "https://github.com/Sovendus-GmbH/sovendus-landing-page-gtm-tag" ,
 versions:
-  # Latest version
-  # - sha: 22876e0853a8b5deb0182df1cb77b11f621bf5eb
-  #   changeNotes: remove unnecessary debug logs and improve path in url check
+  Latest version
+  - sha: 5f65ba62774430b61487dd90868edfe35257d6a2
+    changeNotes: add initial combined version based on all other sovendus tags

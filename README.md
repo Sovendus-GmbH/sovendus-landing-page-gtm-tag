@@ -1,22 +1,39 @@
-# Sovendus Checkout Products Postback for Google Tag Manager
+# Sovendus (Landing) Page GTM Tag
 
-To setup Sovendus Checkout Products Postback, you need to create a tag in your GTM as described below.
+To setup the Sovendus (Landing) Page Tag, you need to create a tag in your GTM as described below.
 
-## Add and setup the tag
+## Tag Features
+
+This tag is required for the following Sovendus products:
+
+- Checkout Products
+- Optimize
+- Voucher Network (required in Switzerland & optional in all other Countries)
+
+## Setup the tag in Google Tag Manager
+
+### Create the Tag
 
 1. Go to tags and create a new tag
-2. Click on the first entry: "Discover more tag types in the Community Template Gallery"
-3. Search for: "Sovendus Checkout Products Postback" and add it
-4. Add the product id(s) you have received and the landing page paths for those products. If the url for the product page looks like this: my-shop.com/products/super-nice-product?url-parameter=parameter-value the landing page path to enter should be this: /products/super-nice-product
+2. Click on the first entry in blue: "Discover more tag types in the Community Template Gallery"
+3. Search for: "Sovendus Landing Page GTM Tag" and add it
 
-   ![Tag configuration](https://raw.githubusercontent.com/Sovendus-GmbH/sovendus_select_product_tracking_template/main/screenshots/url-config.png)
+### Configure the Tag
 
-5. Add a trigger which fires when the sovendus request token is in the url
+Select the Sovendus Products you want to activate, depending on the selected products there might appear additional settings, but mostly this wont require any configuration.
+   ![Tag configuration](https://raw.githubusercontent.com/Sovendus-GmbH/sovendus-landing-page-gtm-tag/main/screenshots/config.png)
 
-   ![Tag Trigger Configuration](https://raw.githubusercontent.com/Sovendus-GmbH/sovendus_select_product_tracking_template/main/screenshots/trigger-config.png)
+### Setup the Tag Trigger
 
-6. Add a trigger which fires only on the order success page
+#### Variant 1 - trigger on all pages
 
-7. The configuration should look similar to this
+The easiest way to setup the trigger for this tag is by triggering on all pages as you can see on the screenshot below
+   ![Tag Trigger](https://raw.githubusercontent.com/Sovendus-GmbH/sovendus-landing-page-gtm-tag/main/screenshots/trigger.png)
 
-   ![Tag Trigger Configuration](https://raw.githubusercontent.com/Sovendus-GmbH/sovendus_select_product_tracking_template/main/screenshots/done-config.png)
+#### variant 2 - trigger only when necessary
+
+Depending on which Sovendus products you want to activate, you will only require certain triggers as described below:
+
+- Voucher Network: trigger on the landing page(s) where users coming from the Sovendus Voucher Network will land on
+- Checkout Products: use a trigger based on if current page url contains "sovReqToken="
+- Optimize: trigger on all pages as described in variant 1

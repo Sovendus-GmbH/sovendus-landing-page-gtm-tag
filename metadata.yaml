@@ -1,17 +1,6 @@
 homepage: "www.sovendus.com" ,
-documentation: "https://github.com/Sovendus-GmbH/sovendus_select_product_tracking_template" ,
+documentation: "https://github.com/Sovendus-GmbH/sovendus-landing-page-gtm-tag" ,
 versions:
   # Latest version
-  - sha: 22876e0853a8b5deb0182df1cb77b11f621bf5eb
-    changeNotes: remove unnecessary debug logs and improve path in url check
-  # Older versions
-  - sha: 86afa6bb54a8a21111c24f18a91a59821e5cecab
-    changeNotes: add additional logs and token undefined checks
-  - sha: eaa85a5f7f178d405648f4fd956cad702854b492
-    changeNotes: fix sovReqToke undefined in some cases
-  - sha: 803740df0bc9777a99b4465ff49cd5ac1ccacefc
-    changeNotes: add new improved tag version
-  - sha: 15c6fa1b1f0e19796fe2afe01c5d640de39fcb96
-    changeNotes: Add legacy to tag name
-  - sha: cc8bb09efa3ff8df42652e2069b55ba90311c9b6
-    changeNotes: Initial release.
+  # - sha: 22876e0853a8b5deb0182df1cb77b11f621bf5eb
+  #   changeNotes: remove unnecessary debug logs and improve path in url check
